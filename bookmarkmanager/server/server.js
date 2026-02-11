@@ -4,7 +4,9 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const Bookmark = require('./models/Bookmark'); // Import the blueprint
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://hello-seven-flax.vercel.app' 
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
