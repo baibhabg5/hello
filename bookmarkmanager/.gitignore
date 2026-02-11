@@ -1,0 +1,14 @@
+# Ignore the heavy folders that npm creates
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore your private MongoDB password
+.env
+
+# Ignore the Vite/React "built" files
+dist/
+build/
+
+# Ignore system junk files
+.DS_Store
