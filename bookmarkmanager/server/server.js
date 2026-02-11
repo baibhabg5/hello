@@ -5,7 +5,7 @@ const cors = require('cors');
 const Bookmark = require('./models/Bookmark'); // Import the blueprint
 const app = express();
 app.use(cors({
-  origin: 'https://hello-seven-flax.vercel.app' 
+origin: 'https://bookmark-first-flax.vercel.app'
 }));
 app.use(express.json());
 
